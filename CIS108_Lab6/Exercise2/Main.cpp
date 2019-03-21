@@ -3,76 +3,73 @@
 #include<string>
 #include<vector>
 #include<Windows.h>
+#include<conio.h>
+#include<stack>
 
-//Everything built fine with 0 errors, but will not run! :( it keeps saying:
-//Unable to start program
-//The system cannot find the file specified
+#pragma warning( disable : 4129; once : 4018; once : 4615; )
 
 using namespace std;
+
+void reverse_string(char *string_flip);
+
 int main()
+
 {
+	Beep(225, 500);
+	Beep(300, 500);
+	Beep(450, 800);
 
-	Beep(220, 300);
+	Beep(225, 500);
+	Beep(300, 500);
+	Beep(450, 800);
 
+	Beep(450, 400);
+	Beep(525, 800);
+	Beep(475, 175);
+	Beep(525, 175);
+	Beep(475, 175);
+	Beep(525, 175);
+	Beep(450, 250);
+	Beep(300, 500);
 
-	cout << " / _ / _ / _ / _ / _ / _ / _ / _ / , -',  ,. -,-,--/|\n";
-	cout << " / _ / _ / _ / _ / _ / _ / _ / , -' //  /-| / /--/ /\n";
-	cout << " / _ / _ / _ / _ / _ / _ / , -' `-''--'  `' '--/ /\n";
-	cout << " / _ / _ / _ / _ / _ / _, :................../ /\n";
-	cout << " |________, '                     |/\n";
-	cout << " """""""""""""""""""""""" \n";
-	cout << " \n";
-	cout << " \n";
+	cout << "	         _____________, -.___     _ \n";
+	cout << "		|____{ {]_]_][_] \n";
+	cout << "		|___ `-----.__\ \_]_]_    . ` \n";
+	cout << "		|`-----.____} }]_]_]_, \n";
+	cout << "		|_____________ / {_]_]_]_], ` \n";
+	cout << "		                   `-' \n";
 
-	char msg[] = "Invention, my dear friends, is 93 % perspiration, 6 % electricity, 4 % evaporation, and 2 % butterscotch ripple\n";
-	string key_command;
-	vector<int> v;
-	vector<string> SortApp;
-	vector<string>::iterator itr;
-	char sort_array;
+	char willy[] = "Invention, my dear friends, is 93% perspiration, 6% electricity, 4% evaporation, and 2% butterscotch ripple \n";
 
-	struct SortBot {
+	cout << willy << endl;
 
-		int key;
-		string data;
-		SortBot(int key, string data) {
+	reverse_string(willy);
 
-			this->key = key;
-
-			this->data = data;
-		}
-	};
-
-	int main(); {
-		std::vector<SortBot> vec;
-
-		vec.push_back(SortBot(9, "Blues"));
-
-		vec.push_back(SortBot(8, "Country"));
-
-		vec.push_back(SortBot(7, "Eletronic"));
-
-		vec.push_back(SortBot(6, "Folk"));
-
-		vec.push_back(SortBot(5, "HipHop"));
-
-		vec.push_back(SortBot(4, "Jazz"));
-
-		vec.push_back(SortBot(2, "Latin"));
-
-		vec.push_back(SortBot(3, "Pop"));
-
-		vec.push_back(SortBot(1, "Rock"));
-
-		sort(vec.begin(), vec.end(), [](const SortBot& lhs, const SortBot& rhs) {
-			return lhs.key < rhs.key;
-		});
-		for (auto it = vec.begin(); it != vec.end(); it++) {
-			cout << it->data << endl;
-		}
-	};
+	void Pause();
+	{
+		std::cout << "Press Enter to close program...";
+		std::cin.clear();
+		std::cin.sync();
+		std::cin.get();
+	}
 
 	return 0;
 }
 
-	// looks cute, might delete later...
+	void reverse_string(char *string_flip)
+
+	{
+		stack<char> first_string;
+
+		for (int i = 0; i < strlen(string_flip); i++)
+
+			first_string.push(string_flip[i]);
+
+		for (int i = 0; i < strlen(string_flip); i++)
+
+		{
+			cout << first_string.top(); first_string.pop();
+		}
+
+		cout << " \n" << endl;
+	}

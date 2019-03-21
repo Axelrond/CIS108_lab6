@@ -1,1 +1,14 @@
-﻿
+﻿  Main.cpp
+  MusicDB.cpp
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(42): warning C4129: ' ': unrecognized character escape sequence
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(44): warning C4129: '/': unrecognized character escape sequence
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(134): warning C4101: 'exc': unreferenced local variable
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(232): warning C4552: '<': result of expression not used
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(244): warning C4018: '<': signed/unsigned mismatch
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(246): warning C4552: '<': result of expression not used
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(258): warning C4018: '<': signed/unsigned mismatch
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(260): warning C4552: '<': result of expression not used
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(274): warning C4101: 'exc': unreferenced local variable
+c:\users\noah\source\repos\cis108_lab6\exercise1\musicdb.cpp(295): warning C4101: 'exc': unreferenced local variable
+  Generating Code...
+  Exercise1.vcxproj -> C:\Users\Noah\source\repos\CIS108_Lab6\Debug\Exercise1.exe

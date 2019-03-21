@@ -1,3 +1,4 @@
 ﻿  Main.cpp
-c:\users\noah\source\repos\cis108_lab6\exercise2\main.cpp(32): warning C4101: 'sort_array': unreferenced local variable
+c:\users\noah\source\repos\cis108_lab6\exercise2\main.cpp(9): warning C4615: #pragma warning: unknown user warning type
+c:\users\noah\source\repos\cis108_lab6\exercise2\main.cpp(64): warning C4018: '<': signed/unsigned mismatch
   Exercise2.vcxproj -> C:\Users\Noah\source\repos\CIS108_Lab6\Debug\Exercise2.exe
